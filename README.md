@@ -42,11 +42,12 @@
 
 # Video Comprehension MLLMs
 
-| Paper                                                                                                         | Date  |
-| ------------------------------------------------------------------------------------------------------------- | ----- |
-| [LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models](http://arxiv.org/abs/2311.17043)             | 23.11 |
-| [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](http://arxiv.org/abs/2406.08085) | 24.06 |
-| [Exploring the Design Space of Visual Context Representation in Video MLLMs](http://arxiv.org/abs/2410.13694) | 24.10 |
+| Paper                                                                                                                     | Date  |
+| ------------------------------------------------------------------------------------------------------------------------- | ----- |
+| [LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models](http://arxiv.org/abs/2311.17043)                         | 23.11 |
+| [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](http://arxiv.org/abs/2406.08085)             | 24.06 |
+| [Exploring the Design Space of Visual Context Representation in Video MLLMs](http://arxiv.org/abs/2410.13694)             | 24.10 |
+| [xGen-MM-Vid (BLIP-3-Video): You Only Need 32 Tokens to Represent a Video Even in VLMs](https://arxiv.org/abs/2410.16267) | 24.10 |
 
 
 
