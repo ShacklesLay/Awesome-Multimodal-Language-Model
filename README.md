@@ -14,8 +14,8 @@
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----- | ----------------------------------------------------------------------------------------- |
 | [Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs](http://arxiv.org/abs/2406.16860)                                                   | 24.06 | Integrate multiple vision encoders.<br>Open source dataset.                               |
 | [Unveiling Encoder-Free Vision-Language Models](http://arxiv.org/abs/2406.11832)                                                                             | 24.06 | Without vision encoder;<br>from scratch;<br>Add new supervision signal into vision tokens |
-| [PaliGemma: A versatile 3B VLM for transfer](http://arxiv.org/abs/2407.07726)                                                                                | 24.07 |                                                                                           |
-| [xGen-MM (BLIP-3): A Family of Open Large Multimodal Models](http://arxiv.org/abs/2408.08872)                                                                | 24.08 |                                                                                           |
+| [PaliGemma: A versatile 3B VLM for transfer](http://arxiv.org/abs/2407.07726)                                                                                | 24.07 | siglip + gemma                                                                            |
+| [xGen-MM (BLIP-3): A Family of Open Large Multimodal Models](http://arxiv.org/abs/2408.08872)                                                                | 24.08 | Replace Q-former with perceiver-resampler in BLIP2                                        |
 | [EAGLE: Exploring The Design Space for Multimodal LLMs with Mixture of Encoders](http://arxiv.org/abs/2408.15998)                                            | 24.08 | Integrate multiple vision encoders.                                                       |
 | [LLaVA-OneVision: Easy Visual Task Transfer](http://arxiv.org/abs/2408.03326)                                                                                | 24.08 | Image, video                                                                              |
 | [Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Multimodal Models](http://arxiv.org/abs/2409.17146)                                        | 24.09 |                                                                                           |
@@ -35,27 +35,27 @@
 | [Deciphering Cross-Modal Alignment in Large Vision-Language Models with Modality Integration Rate](http://arxiv.org/abs/2410.07167) | 24.10 | Add scaler and bias after nomalization layer                                     |
 ## 3D
 
-| Paper                                                                                                            | Date  | Description |
-| ---------------------------------------------------------------------------------------------------------------- | ----- | ----------- |
-| [LLaVA-3D: A Simple yet Effective Pathway to Empowering LMMs with 3D-awareness](http://arxiv.org/abs/2409.18125) | 24.09 |             |
+| Paper                                                                                                            | Date  | Description                                                                 |
+| ---------------------------------------------------------------------------------------------------------------- | ----- | --------------------------------------------------------------------------- |
+| [LLaVA-3D: A Simple yet Effective Pathway to Empowering LMMs with 3D-awareness](http://arxiv.org/abs/2409.18125) | 24.09 | Input multi-view images and 3D position embeddings to extend 2D LVLMs to 3D |
 
 
 # Video Comprehension MLLMs
 
-| Paper                                                                                                                     | Date  |
-| ------------------------------------------------------------------------------------------------------------------------- | ----- |
-| [LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models](http://arxiv.org/abs/2311.17043)                         | 23.11 |
-| [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](http://arxiv.org/abs/2406.08085)             | 24.06 |
-| [Exploring the Design Space of Visual Context Representation in Video MLLMs](http://arxiv.org/abs/2410.13694)             | 24.10 |
-| [xGen-MM-Vid (BLIP-3-Video): You Only Need 32 Tokens to Represent a Video Even in VLMs](https://arxiv.org/abs/2410.16267) | 24.10 |
+| Paper                                                                                                                     | Date  | Description                                               |
+| ------------------------------------------------------------------------------------------------------------------------- | ----- | --------------------------------------------------------- |
+| [LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models](http://arxiv.org/abs/2311.17043)                         | 23.11 | Process a frame of video as two tokens                    |
+| [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](http://arxiv.org/abs/2406.08085)             | 24.06 | Propose memory modules                                    |
+| [Exploring the Design Space of Visual Context Representation in Video MLLMs](http://arxiv.org/abs/2410.13694)             | 24.10 | Compare sampling and pooling on space and time            |
+| [xGen-MM-Vid (BLIP-3-Video): You Only Need 32 Tokens to Represent a Video Even in VLMs](https://arxiv.org/abs/2410.16267) | 24.10 | Compare 4 different temporal encoder above vision encoder |
 
 
 
 # Vision-Audio-Text
 
-| Paper                                                                                                                       | Date  |
-| --------------------------------------------------------------------------------------------------------------------------- | ----- |
-| [Mirasol3B: A Multimodal Autoregressive Model for Time-Aligned and  Contextual Modalities](http://arxiv.org/abs/2311.05698) | 23.11 |
+| Paper                                                                                                                       | Date  | Description                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------------- | ----- | --------------------------------------------------------------------------------------------------- |
+| [Mirasol3B: A Multimodal Autoregressive Model for Time-Aligned and  Contextual Modalities](http://arxiv.org/abs/2311.05698) | 23.11 | Use AR to model audio and video, use cross attention to integrate autio and video features into llm |
 
 
 
