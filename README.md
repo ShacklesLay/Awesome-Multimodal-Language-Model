@@ -7,6 +7,7 @@
 * [Vision Encoder](#vision-encoder)
 * [Efficient](#efficient)
 * [Benchmarks](#benchmarks)
+	* [Image level](#image-level)
 
 # Large Vision Language Models
 
@@ -90,6 +91,7 @@
 | [Less is More: A Simple yet Effective Token Reduction Method for Efficient Multi-modal LLMs](http://arxiv.org/abs/2409.10994)        | 24.09 | Prune vision tokens |
 
 # Benchmarks
+## Image level
 
 | Paper                                                                                                                                                   | Date  | Description               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ------------------------- |
