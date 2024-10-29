@@ -46,6 +46,7 @@
 | Paper                                                                                                                     | Date  | Description                                               |
 | ------------------------------------------------------------------------------------------------------------------------- | ----- | --------------------------------------------------------- |
 | [LLaMA-VID: An Image is Worth 2 Tokens in Large Language Models](http://arxiv.org/abs/2311.17043)                         | 23.11 | Process a frame of video as two tokens                    |
+| [TOPA: Extend Large Language Models for Video Understanding via Text-Only Pre-Alignment](http://arxiv.org/abs/2405.13911) | 24.05 | Using text data mimicking video frames                    |
 | [Flash-VStream: Memory-Based Real-Time Understanding for Long Video Streams](http://arxiv.org/abs/2406.08085)             | 24.06 | Propose memory modules                                    |
 | [Exploring the Design Space of Visual Context Representation in Video MLLMs](http://arxiv.org/abs/2410.13694)             | 24.10 | Compare sampling and pooling on space and time            |
 | [xGen-MM-Vid (BLIP-3-Video): You Only Need 32 Tokens to Represent a Video Even in VLMs](https://arxiv.org/abs/2410.16267) | 24.10 | Compare 4 different temporal encoder above vision encoder |
